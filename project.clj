@@ -6,6 +6,7 @@
                  [compojure "1.6.1"]
                  [ring/ring-defaults "0.3.2"]
                  [cheshire "5.4.0"]
+                 [overtone "0.10.6"]
                  ]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler starter-app.handler/app}
